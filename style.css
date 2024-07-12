@@ -2,6 +2,17 @@
   background-color: #001253;
 }
 
+.navbar-nav .nav-link {
+  transition: color 0.3s;
+  color: #6c757d; /* Warna teks default (abu-abu) */
+}
+.navbar-nav .nav-link:hover {
+  color: #ffffff; /* Warna teks saat hover */
+}
+.navbar-nav .nav-link.active {
+  color: #ffffff; /* Warna teks saat aktif (putih) */
+}
+
 #home {
   font-family: 'poppins', sans-serif;
   display: grid;
