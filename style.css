@@ -1,0 +1,124 @@
+.navbar {
+  background-color: #001253;
+}
+
+#home {
+  font-family: 'poppins', sans-serif;
+  display: grid;
+  text-align: center;
+  font-weight: bold;
+  background-color: #a5d7e8;
+  place-items: center;
+  align-content: center;
+  padding-top: 17rem;
+}
+
+.titleCol {
+  color: black;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.innerHome {
+  color: black;
+}
+
+.hidden {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateY(100%);
+  transition: all 1s;
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateY(0);
+}
+
+#about {
+  padding-top: 9rem;
+  background-color: #0b2447;
+}
+
+.aboutRow {
+  color: white;
+  justify-content: center;
+  text-align: center;
+}
+
+.contentRow {
+  padding-top: 5px;
+  font-size: 25px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#gallery {
+  padding-top: 5rem;
+  font-family: 'poppins', sans-serif;
+  text-align: center;
+  background-color: #a5d7e8;
+}
+
+.galleryCol {
+  color: black;
+  font-size: 35px;
+  font-family: 'poppins', sans-serif;
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+
+#contact {
+  padding-top: 5rem;
+  background-color: #0b2447;
+  font-family: 'poppins', sans-serif;
+  justify-content: center;
+}
+
+.contactCol {
+  color: white;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+#contact .row {
+  justify-content: center;
+  color: white;
+}
+
+footer .row {
+  background-color: #0b2447;
+  color: white;
+  text-align: center;
+  padding-bottom: 5rem;
+}
+
+.foot-title {
+  color: white;
+  padding-top: 5rem;
+  padding-bottom: 1rem;
+}
+
+.fa-twitter {
+  color: white;
+  font-family: 'poppins', sans-serif;
+}
+
+.fa-instagram {
+  color: white;
+  font-family: 'poppins', sans-serif;
+  margin-left: 2rem;
+}
+
+.icon-twitter {
+  margin-top: 1rem;
+  justify-content: center;
+}
+
+.icon-row {
+  justify-content: center;
+}
